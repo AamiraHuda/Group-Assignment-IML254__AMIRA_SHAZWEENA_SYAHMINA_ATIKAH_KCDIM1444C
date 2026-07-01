@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="100%" height="100%">
+  <!-- Definitions for gradients or styles if needed -->
+  <defs>
+    <style>
+      .brand-text {
+        font-family: 'Playfair Display', 'Georgia', serif;
+        font-weight: 700;
+        fill: #4a3b32;
+      }
+      .sub-text {
+        font-family: 'Inter', 'Montserrat', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        fill: #8b7355;
+        letter-spacing: 5px;
+      }
+      .accent {
+        fill: #8b7355;
+      }
+      .outline {
+        stroke: #8b7355;
+        stroke-width: 0.8;
+        fill: none;
+      }
+      .hand-line {
+        stroke: #8b7355;
+        stroke-width: 0.9;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+      }
+      .nail {
+        fill: #e8d8ce;
+        stroke: #8b7355;
+        stroke-width: 0.5;
+      }
+      .leaf {
+        fill: #e8d8ce;
+        fill-opacity: 0.75;
+        stroke: #8b7355;
+        stroke-width: 0.6;
+      }
+    </style>
+  </defs>
+
+  <!-- Graphic Badge (Left Side) -->
+  <g transform="translate(5, 0)">
+    <!-- Thin concentric circles -->
+    <circle cx="30" cy="30" r="22" stroke="#8b7355" stroke-width="0.8" fill="none" stroke-opacity="0.6" />
+    <path d="M 11,24 A 21.5,21.5 0 1,1 42,46" stroke="#8b7355" stroke-width="1.2" fill="none" stroke-linecap="round" />
+    
+    <!-- Decorative tiny dots -->
+    <circle cx="10" cy="40" r="1" fill="#8b7355" />
+    <circle cx="12" cy="44" r="1.5" fill="#8b7355" />
+    <circle cx="49" cy="18" r="1" fill="#8b7355" />
+    <circle cx="49" cy="22" r="1" fill="#8b7355" />
+
+    <!-- Sparkles (4-pointed stars) on left -->
+    <!-- Star 1 -->
+    <path d="M 18,17 Q 20,17 20,15 Q 20,17 22,17 Q 20,17 20,19 Q 20,17 18,17 Z" fill="#8b7355" />
+    <!-- Star 2 -->
+    <path d="M 13,22 Q 14.5,22 14.5,20.5 Q 14.5,22 16,22 Q 14.5,22 14.5,23.5 Q 14.5,22 13,22 Z" fill="#8b7355" />
+
+    <!-- Botanical Leafy Branch curving on the right -->
+    <!-- Stem -->
+    <path d="M 30,46 C 34,44 43,36 43,23 C 43,20 41,18 40,16" stroke="#8b7355" stroke-width="0.9" fill="none" stroke-linecap="round" />
+    <!-- Leaves -->
+    <!-- Leaf 1 -->
+    <path d="M 33,42 Q 39,41 39,36 Q 34,38 33,42 Z" class="leaf" />
+    <!-- Leaf 2 -->
+    <path d="M 38,35 Q 45,34 44,28 Q 38,31 38,35 Z" class="leaf" />
+    <!-- Leaf 3 -->
+    <path d="M 41,27 Q 47,25 44,20 Q 39,23 41,27 Z" class="leaf" />
+    <!-- Leaf 4 (Top small) -->
+    <path d="M 41,19 Q 44,16 41,13 Q 38,16 41,19 Z" class="leaf" />
+
+    <!-- Graceful Hand Illustration -->
+    <!-- Hand Outline and Fingers -->
+    <!-- Wrist & Palm -->
+    <path d="M 20,47 C 22,44 24,37 26,32 C 27,30 28,29 29,28" class="hand-line" />
+    <path d="M 17,45 C 19,41 21,36 23,32" class="hand-line" />
+    
+    <!-- Index Finger (pointing high) -->
+    <path d="M 26,32 C 28,29 32,23 37,13 C 38,11 39.5,11 40,12 C 40.5,13 40,15 38,18 C 34,24 31,29 30,31" class="hand-line" />
+    <!-- Index Nail -->
+    <path d="M 37.5,11.5 Q 39,10 40,12 Q 39,14 37.5,13.5 Z" class="nail" />
+
+    <!-- Middle Finger -->
+    <path d="M 29,28 C 31,26 36,21 42,17 C 43.5,16 44.5,16.5 45,17.5 C 45.5,18.5 44,20 41,22 C 37,25 33,29 31,31" class="hand-line" />
+    <!-- Middle Nail -->
+    <path d="M 43,16 Q 45,15.5 45,17 Q 43.5,18.5 42,18 Z" class="nail" />
+
+    <!-- Ring Finger -->
+    <path d="M 31,31 C 33,29 37,26 42,23 C 43.5,22 44.5,22.5 44.5,23.5 C 44.5,24.5 43,26 40,28 C 36,31 33,33 32,34" class="hand-line" />
+    <!-- Ring Nail -->
+    <path d="M 42.5,22.5 Q 44.5,22 44.5,23.5 Q 43,25 41.5,24.5 Z" class="nail" />
+
+    <!-- Little Finger -->
+    <path d="M 32,34 C 33.5,33 36,31 40,29 C 41,28.5 42,29 42,30 C 42,31 40.5,32 38,34 C 35,36 33,37 32.5,37" class="hand-line" />
+    <!-- Little Nail -->
+    <path d="M 40,28.7 Q 41.5,28.5 41.5,29.7 Q 40.5,31 39.5,30.5 Z" class="nail" />
+  </g>
+
+  <!-- Brand Text Typography (Right Side) -->
+  <text x="64" y="29" class="brand-text" font-size="20" letter-spacing="1.2">PEARL &amp; POLISH</text>
+  <text x="65" y="47" class="sub-text" font-size="8.5">M A N I C U R E</text>
+  
+  <!-- Sub-bar line decoration under "MANICURE" -->
+  <line x1="165" y1="44.5" x2="235" y2="44.5" stroke="#8b7355" stroke-width="0.5" stroke-opacity="0.5" />
+</svg>
